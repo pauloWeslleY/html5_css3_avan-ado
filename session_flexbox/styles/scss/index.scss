@@ -1,0 +1,29 @@
+body {
+	background-color: #f1f6f5;
+}
+
+.container {
+	display: flex;
+	width: 1000px;
+
+	background-color: #eafdfc;
+
+	.box {
+		width: 100px;
+		height: 100px;
+		flex-grow: 1;
+	}
+
+	.box_one {
+		background-color: #20262e;
+	}
+
+	.box_second {
+		background-color: #cd0404;
+		flex-grow: 2;
+	}
+
+	.box_third {
+		background-color: #3d1766;
+	}
+}

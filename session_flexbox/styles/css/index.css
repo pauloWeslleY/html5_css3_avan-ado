@@ -1,0 +1,26 @@
+body {
+  background-color: #f1f6f5;
+}
+
+.container {
+  display: flex;
+  width: 1000px;
+  background-color: #eafdfc;
+}
+.container .box {
+  width: 100px;
+  height: 100px;
+  flex-grow: 1;
+}
+.container .box_one {
+  background-color: #20262e;
+}
+.container .box_second {
+  background-color: #cd0404;
+  flex-grow: 2;
+}
+.container .box_third {
+  background-color: #3d1766;
+}
+
+/*# sourceMappingURL=index.css.map */
